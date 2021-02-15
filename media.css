@@ -1,0 +1,252 @@
+
+@media all and  (max-width: 1024px) {
+
+.progres-line {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 4px;
+  background-color: rgb(236, 236, 236);
+  z-index: 100;
+}
+
+.progres-line_item{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgb(163, 41, 41);
+  z-index: 100;
+}
+
+.parallax-img {
+  height: 520px;
+  background-attachment: fixed;
+  background-image: url(img/1.jpg);
+  z-index: 10;
+}
+
+.topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+    background-color: transparent;
+  }
+
+  .topnav.responsive {
+    position: relative;
+   }
+
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+   }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    
+   }
+
+   .fullscreen-content {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 2em;
+   
+   }
+
+   .about {
+    background-color: rgba(211, 211, 236, 0.829);
+  }
+
+  h2{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+  .about-container_text {
+    max-width: 720px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+
+.skill-cantainer p {
+  color: #ddd;
+}
+
+.skill-cantainer-progres {
+  margin-top: 60px;
+
+}
+
+
+}
+
+
+
+@media all and  (max-width: 740px) {
+
+  .parallax-img {
+    height: 300px;
+    padding-top: 70px;
+  }
+  
+  .topnav a:not(:first-child) {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+      background-color: transparent;
+    }
+  
+    .topnav.responsive {
+      position: relative;
+     }
+  
+  
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+     }
+  
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+      
+     }
+  
+     .fullscreen-content {
+      display: flex;
+      justify-content: center;
+      text-transform: uppercase;
+      font-size: 2em;
+     
+     }
+  
+     .about {
+      background-color: rgba(211, 211, 236, 0.829);
+     
+    }
+  
+    h2{
+      display: flex;
+      justify-content: center;
+      text-transform: uppercase;
+      margin-top: -20px;
+  }
+  
+    .about-container_text {
+      max-width: 260px;
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .skill-cantainer {
+      height: 550px;
+    }
+
+    .skill-cantainer h3 {
+      padding-top: 60px;
+    }
+  
+  .skill-cantainer-progres_html {
+    border-bottom: 6px solid rgb(36, 120, 199);
+    max-width: 200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  
+  .skill-cantainer-progres_html p {
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+  
+  .skill-cantainer-progres_html::before {
+    content: '';
+    border-bottom: 6px solid rgb(245, 238, 239);
+    width: calc(100% - 180px);
+    position: absolute;
+    top: 100%;
+    right: 0;
+  
+  }
+  
+  .skill-cantainer-progres_js {
+    border-bottom: 6px solid  rgb(36, 120, 199);
+    max-width: 200px;
+    position: relative;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .skill-cantainer-progres_js p {
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+  
+  .skill-cantainer-progres_js::before {
+    content: '';
+    border-bottom: 6px solid  rgb(245, 238, 239);
+    width: calc(100% - 140px);
+    position: absolute;
+    top: 100%;
+    right: 0;
+  }
+  
+  .skill-cantainer-progres_ad {
+    border-bottom: 6px solid rgb(36, 120, 199);
+    width: 200px;
+    position: relative;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .skill-cantainer-progres_ad p {
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+  
+  .skill-cantainer-progres_ad::before {
+    content: '';
+    border-bottom: 6px solid  rgb(245, 238, 239);
+    width: calc(100% - 100px);
+    position: absolute;
+    top: 100%;
+    right: 0;
+  }
+
+  .contact {
+    padding: 20px;
+    font-size: 10px;
+  }
+
+  .contact h4 {
+    margin-bottom: 20px;
+  }
+
+  }
+
